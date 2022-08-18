@@ -1,0 +1,28 @@
+@import url('../../../node_modules/normalize.css/normalize.css');
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'qiantuxianmo';
+  src: url(../font/QianTuXianMoTi-2.ttf);
+}
+body {
+  background-color: #1c1c1c;
+  user-select: none;
+  font-size: 14px;
+}
+img {
+  object-fit: cover;
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+}
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
